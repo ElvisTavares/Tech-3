@@ -3,7 +3,7 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha = "1990";
-$banco = "s3d";
+$banco = "tech3";
 
 
 // Create connection

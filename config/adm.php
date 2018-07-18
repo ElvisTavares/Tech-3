@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 
 
@@ -10,5 +11,6 @@ session_start();
     }
 
     validaAcesso($_SESSION['UserLogado']);
-        echo "Ola";
-        echo "<br><a href='deslogar.php'>Sair</a>";
+
+
+include('dashboard.php');
