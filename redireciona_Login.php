@@ -3,7 +3,7 @@
 session_start();
 
 if (isset($_SESSION['UserLogado'])){
-    include('config/login.php');
+    include('valida_Login.php');
 }else{
     include('login.php');
 }

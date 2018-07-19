@@ -4,7 +4,7 @@ include('cabecalho.php');
 ?>
 
 <div class="container">
-    <form action="config/login.php" method="POST">
+    <form action="valida_Login.php" method="POST">
 
         <div class="row">
             <input type="text" placeholder="E-mail" name="email" id="email">

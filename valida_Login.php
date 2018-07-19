@@ -12,7 +12,7 @@ if ((isset($_POST['email']) && isset($_POST['senha'])) || (isset($_SESSION['User
     if (mysqli_num_rows($queryUser1) != 0){
         if ($queryUser = mysqli_fetch_assoc($queryUser1)){
             $_SESSION['UserLogado'] = $queryUser['id'];
-            header("Location: adm.php");
+            header("Location: dashboard.php");
         }else{
             echo $loginErro;
 
@@ -21,9 +21,9 @@ if ((isset($_POST['email']) && isset($_POST['senha'])) || (isset($_SESSION['User
         echo $loginErro;
     }
     }else{
-        header("Location: adm.php");
+        header("Location: dashboard.php");
 
     }
 }else{
-    header("Location: ../login.php");
+    header("Location: login.php");
 }
