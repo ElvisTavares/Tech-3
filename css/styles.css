@@ -1,8 +1,15 @@
 * {
     box-sizing: border-box;
-    text-align: center;
+    font-family: "Times New Roman", Times, serif;
     margin: 0;
 
+}
+
+#nav {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+ 
 }
 
 header {
@@ -14,7 +21,7 @@ header {
     font-family: "Times New Roman", Times, serif;
 }
 
-input[type=text] {
+#nav input[type=text] {
     width: 20%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -24,7 +31,7 @@ input[type=text] {
     box-sizing: border-box;
 }
 
-input[type=password] {
+#nav input[type=password] {
     width: 20%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -34,7 +41,7 @@ input[type=password] {
     box-sizing: border-box;
 }
 
-input[type=submit]{
+#nav input[type=submit]{
     background-color: #3A5FCD;
     color: white;
     padding: 12px 20px;
@@ -45,12 +52,12 @@ input[type=submit]{
 
 }
 
-input[type=submit]:hover{
+#nav input[type=submit]:hover{
     bacground-color: #436EEE;
 
 }
 
-.container {
+#nav .container {
     height: 30px;
     border-radius:5px;
 
@@ -69,7 +76,7 @@ input[type=submit]:hover{
 }
 
 
-ul {
+#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -77,7 +84,7 @@ ul {
     background-color: #f1f1f1;
 }
 
-li a {
+#nav li a {
     display: block;
     color: #000;
     padding: 8px 16px;
@@ -85,7 +92,7 @@ li a {
 }
 
 /* Change the link color on hover */
-li a:hover {
+#nav li a:hover {
     background-color: #555;
     color: white;
 }

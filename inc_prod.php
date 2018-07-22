@@ -1,7 +1,7 @@
 <?php include('dashboard.php'); ?>
 
 <h2>Inclusao de produtos</h2>
-
+<br>
 <form method="POST" action="inc_prod2.php">
 	<label for="nomeP">Nome do Produto</label>
 	<input type="text" name="nomeP" id="nomeP" >

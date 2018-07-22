@@ -11,10 +11,12 @@ session_start();
 
 <link rel="stylesheet" href="css/styles.css">
 
+<div id="nav">
 <h2>Menu</h2>
 <ul>
 	<li><a href="#">Inicio</a></li>
     <li><a href="cad_prod.php">Cadastro de produtos</a></li>
-    <li><a href="blog_adm.php">Listar</a></li>
+    <li><a href="list_prod.php">Listar</a></li>
     <li><a href='deslogar.php'>Sair</a><a href=""></a></li>
 </ul>
+</div>
