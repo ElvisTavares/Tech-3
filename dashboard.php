@@ -11,8 +11,13 @@ session_start();
 
 <link rel="stylesheet" href="css/styles.css">
 
+<div class="dash">
+    <h2>Painel administrativo</h2>
+
+</div>
+
 <div id="nav">
-<h2>Menu</h2>
+
 <ul>
 	<li><a href="#">Inicio</a></li>
     <li><a href="cad_prod.php">Cadastro de produtos</a></li>

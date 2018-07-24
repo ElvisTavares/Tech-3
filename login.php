@@ -4,6 +4,10 @@ include('cabecalho.php');
 ?>
 
 <div class="container">
+ 
+    <div class="box">
+
+
     <form action="valida_Login.php" method="POST">
 
         <div class="row">
@@ -18,5 +22,5 @@ include('cabecalho.php');
             <input type="submit" value="Enviar"><br>
         </div>
     </form>
-
+    </div>
 </div>

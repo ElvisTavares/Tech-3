@@ -1,3 +1,4 @@
+<?php include('dashboard.php'); ?>
 <?php 
 $id = $_GET["id"];
 

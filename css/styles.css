@@ -6,9 +6,12 @@
 }
 
 #nav {
+    
     box-sizing: border-box;
     text-align: center;
     margin: 0;
+    width: 200px;
+
  
 }
 
@@ -19,10 +22,30 @@ header {
     font-size: 35px;
     color: white;
     font-family: "Times New Roman", Times, serif;
+
 }
 
-#nav input[type=text] {
-    width: 20%;
+.dash {
+    background-color: #666;
+    padding: 15px;
+    
+    font-size: 12px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container{
+  
+align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 100px;
+
+}
+.box input[type=text] {
+    
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -31,8 +54,8 @@ header {
     box-sizing: border-box;
 }
 
-#nav input[type=password] {
-    width: 20%;
+.box  input[type=password] {
+   
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -41,7 +64,7 @@ header {
     box-sizing: border-box;
 }
 
-#nav input[type=submit]{
+.box  input[type=submit]{
     background-color: #3A5FCD;
     color: white;
     padding: 12px 20px;
@@ -52,16 +75,14 @@ header {
 
 }
 
-#nav input[type=submit]:hover{
+.box  input[type=submit]:hover{
     bacground-color: #436EEE;
 
 }
 
-#nav .container {
-    height: 30px;
-    border-radius:5px;
+.box {
 
-    padding:20px;
+
 }
 
 

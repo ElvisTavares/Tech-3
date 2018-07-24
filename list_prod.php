@@ -37,7 +37,7 @@
 			echo "<tr><td>".$nome."</td>";
 			echo "<td>".$categoria."</td>";
 			echo "<td>".$descricao."</td>";
-
+			echo "<td><img src='figuras/".$id.".jpg' style='width: 80px; height: 100px'></td>";
 			echo "<td> <a href='alt_prod.php?id=$id'>Alterar</a>
 					<a href='exc_prod.php?id=$id' onclick='return confirm(\"confirma a exclusão de $nome?\")'>Exluir</a>
 			</td></tr> "; 
